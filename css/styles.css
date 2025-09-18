@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e6f3ff; /* sky blue shade */
+  color: #333;
+  transition: all 0.3s;
+}
+
+header {
+  background: #4da6ff;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #80cfff;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.slide.active {
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #4da6ff;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  background: #4da6ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0066cc;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background: #1e1e1e;
+}
+
+.dark-mode button {
+  background: #333;
+}
+
+/* Product Page */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.buy-btn {
+  background: #4da6ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buy-btn:hover {
+  background: #0066cc;
+}
+
+/* Dark mode adjustments */
+.dark-mode .product-card {
+  background: #1e1e1e;
+  color: white;
+}
