@@ -42,7 +42,7 @@ product-website/
 
 You can deploy this project easily on:
 
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages](https://paul-siameto.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment/)
 
 ---
 
