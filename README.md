@@ -54,4 +54,4 @@ You can deploy this project easily on:
 
 ## 👨‍💻 Author
 
-- Developed by *Your Name* ✨
+- Developed by *PAUL SIAMETO* ✨
